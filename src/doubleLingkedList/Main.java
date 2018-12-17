@@ -15,8 +15,8 @@ public class Main {
 
         System.out.println("Tambah di depan");
         daftar.addFirst(28);
-      //  daftar.addFirst(12);
-     //   daftar.addFirst(15);
+        daftar.addFirst(12);
+        daftar.addFirst(15);
         System.out.println(daftar.toString());
         System.out.println("Size : " + daftar.getSize());
         System.out.println(" ");
@@ -46,7 +46,7 @@ public class Main {
         System.out.println(" ");
 
         System.out.println("Remove");
-        daftar.removeMid(19);
+        daftar.removeMid(28);
         System.out.println(daftar.toString());
         System.out.println("");
 

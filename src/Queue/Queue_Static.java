@@ -39,23 +39,17 @@ public class Queue_Static {
             size--;
             
         }
-        return 0;
-     
-       
+        return 0;  
     }
-
     public int getSize() {
         return size;
     }
-
     public boolean isEmpty() {
         if (size == 0) {
             return true;
-
         }
         return false;
     }
-
     public boolean isFull() {
         if (rear == data.length) {
             return true;

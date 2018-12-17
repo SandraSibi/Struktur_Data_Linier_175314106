@@ -91,7 +91,7 @@ public class LingkedList {
     }
 
     @Override
-    public String toString() { // untuk mencetak elem yang ada di list
+    public String toString() { // untuk mencetak elemen yang ada di list
         String isi = " ";  // untuk mengetahui isinya
         ListNode pointer = firstNode;  // untuk munduru 1 langka
         while (pointer != null) { // untuk mengecek tidak sama dengan null
